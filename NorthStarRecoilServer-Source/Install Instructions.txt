@@ -1,0 +1,37 @@
+NorthStar Recoil v1.0.0
+
+SPT Version:
+4.0.13
+
+Installation:
+
+1. Open your SPT installation folder.
+
+2. Extract the contents of this archive directly into your SPT folder.
+
+3. Allow Windows to merge the "user" folder if prompted.
+
+4. Start the SPT Server.
+
+5. Launch the game.
+
+Configuration:
+
+Open:
+
+user\mods\NorthStarRecoilServer\config.json
+
+Adjust the values as desired:
+
+* VerticalRecoil
+* HorizontalRecoil
+* CameraRecoil
+* CameraSnap
+
+After making changes:
+
+1. Save config.json
+2. Restart the SPT Server
+3. Launch the game
+
+No DLL rebuild is required.

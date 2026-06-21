@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Reference Include="0Harmony">
+	    <HintPath>E:\SPT AKI\BepInEx\core\0Harmony.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Assembly-CSharp">
+	    <HintPath>E:\SPT AKI\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx">
+	    <HintPath>E:\SPT AKI\BepInEx\core\BepInEx.dll</HintPath>
+	  </Reference>
+	  <Reference Include="SemanticVersioning">
+	    <HintPath>E:\SPT AKI\SPT\SemanticVersioning.dll</HintPath>
+	  </Reference>
+	  <Reference Include="SPTarkov.Common">
+	    <HintPath>E:\SPT AKI\SPT\SPTarkov.Common.dll</HintPath>
+	  </Reference>
+	  <Reference Include="SPTarkov.DI">
+	    <HintPath>E:\SPT AKI\SPT\SPTarkov.DI.dll</HintPath>
+	  </Reference>
+	  <Reference Include="SPTarkov.Server.Core">
+	    <HintPath>E:\SPT AKI\SPT\SPTarkov.Server.Core.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine">
+	    <HintPath>E:\SPT AKI\EscapeFromTarkov_Data\Managed\UnityEngine.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.CoreModule">
+	    <HintPath>E:\SPT AKI\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
